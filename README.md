@@ -6,7 +6,7 @@
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: Is it necessary to say one. Lol I have no idea on fun facts
 - 💪🏻 Stay motivated and keep yourself motivated, there's nothing that can't be solved.
-- Thank you :)
+
 
 <!---
 TeamWork28/TeamWork28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
