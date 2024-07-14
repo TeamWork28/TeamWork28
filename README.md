@@ -13,9 +13,9 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
 
 <h3>Tips for learning</h3>
-- I love reading and I learnt some of them while reading only. So I suggest this (https://www.w3schools.com/) To learn anything you want.</b> 
-- For Video learners I suggest you guys to see (https://www.youtube.com/@freecodecamp & https://www.youtube.com/@abdul_bari) You can learn Python and Java with them at free of cost.</b>
-- For more advanced version for learning from videos and blogs I suggest (https://www.udemy.com/), You can buy courses for less price when available and learn from it.</b>
+<b>- I love reading and I learnt some of them while reading only. So I suggest this (https://www.w3schools.com/) To learn anything you want.</b> 
+<b>- For Video learners I suggest you guys to see (https://www.youtube.com/@freecodecamp & https://www.youtube.com/@abdul_bari) You can learn Python and Java with them at free of cost.</b>
+<b>- For more advanced version for learning from videos and blogs I suggest (https://www.udemy.com/), You can buy courses for less price when available and learn from it.</b>
 - Happy coding.</b>
 <!---
 TeamWork28/TeamWork28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
