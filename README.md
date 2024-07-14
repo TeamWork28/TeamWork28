@@ -10,7 +10,13 @@
 ## Tech Stack:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) 
+
+
+- I love reading and I learnt some of them while reading only. So I suggest this (https://www.w3schools.com/) To learn anything you want.
+- For Video learners I suggest you guys to see (https://www.youtube.com/@freecodecamp & https://www.youtube.com/@abdul_bari) You can copy, paste and learn Python and Java with them at free of cost.
+- For more advanced version for learning from videos and blogs I suggest (https://www.udemy.com/), You can buy courses for less price when available and learn from it.
+- Happy coding 
 <!---
 TeamWork28/TeamWork28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
