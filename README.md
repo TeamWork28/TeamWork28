@@ -31,7 +31,7 @@
 
 - 📘 Prefer **reading-based learning**? Try [W3Schools](https://www.w3schools.com)
 - 🎥 Prefer **hands-on or video tutorials**? Try [YouTube](https://youtube.com)
-- 💼 For structured and deep learning, check out: [Udemy](https://www.udemy.com)
+- 📄 Prefer **documentation** Try online documentation [GeekforGeeks](https://www.geeksforgeeks.org/)
 
 ---
 
