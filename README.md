@@ -1,33 +1,61 @@
-- 👋 Hi, I’m Shravan S
-- 👀 I’m interested in AI&ML, DevOps, Cloud Computing
-- 🌱 I’m currently learning Python noob to Pro, DevOps tools
-- 💞️ I’m looking to collaborate on Programmers who can help me improve
-- 📫 How to reach me (IG:- the_royal_ceo)
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: Is it necessary to say one. Lol I have no idea on fun facts
-- 💪🏻 Stay motivated and keep yourself motivated, there's nothing that can't be solved.
+<h1 align="center">Hi 👋, I'm Shravan S</h1>
+<h3 align="center">A passionate programmer exploring AI, ML, and DevOps</h3>
 
-## Tech Stack:
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Passionate+about+AI+%26+Cloud;DevOps+Enthusiast;Lifelong+learner+%26+problem+solver" alt="Typing SVG" />
+</p>
 
+---
 
-<h4>Tips for learning</h4>
-- I love reading and I learnt some of them while reading only. So I suggest this (https://www.w3schools.com/) To learn anything you want.<br>
-- If you can understand documentation go for it, else prefer practical go for Youtube 
-- For more advanced version for learning from videos and blogs I suggest (https://www.udemy.com/), You can buy courses for less price when available and learn from it. NOT RECOMMENDING<br>
-- Happy coding.
-<!---
-TeamWork28/TeamWork28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🚀 About Me
+
+- 🔭 I’m currently learning **Python (noob to pro)** and **DevOps tools**
+- 👯 I’m looking to collaborate with **developers to grow and improve**
+- 📫 How to reach me: [IG: @the_royal_ceo](https://instagram.com/the_royal_ceo)
+- 🌍 Based in: **Bengaluru, India**
+- 💬 Pronouns: **He/Him**
+- 🧠 Fun fact: *"Is it necessary to have one?"* 😄
+- 💡 Motto: *"Stay motivated. Nothing is unsolvable."*
+
+---
+
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,postgres,git,github,gitlab,docker,linux,jenkins,kubernetes,aws,azure,go" />
+</p>
+
+---
+
+## 📚 Tips for Learning
+
+- 📘 Prefer **reading-based learning**? Try [W3Schools](https://www.w3schools.com)
+- 🎥 Prefer **hands-on or video tutorials**? Try [YouTube](https://youtube.com)
+- 💼 For structured and deep learning, check out: [Udemy](https://www.udemy.com)
+
+---
+
+## 📌 Pinned Projects
+
+Here are some cool projects I’m working on:
+
+- 🔹 **MiniProject** – Sign Language Translator (Python)
+- 🔹 **DevOps-Projects** – Exploring Jenkins, CI/CD (JavaScript)
+- 🔹 **Cloud Deployment Demo** – Hosted using Jupyter (Jupyter Notebook)
+- 🔹 **Testing Jenkins** – Demo setup for Jenkins testing (Python)
+
+> Explore all at: [GitHub Repos »](https://github.com/TeamWork28?tab=repositories)
+
+---
+
+## 🌐 Connect with Me
+
+<p align="left">
+  <a href="mailto:shravansen.sk@gmail.com"><img src="https://img.shields.io/badge/Email-shravansen.sk@gmail.com-blue?style=flat&logo=gmail"></a>
+  <a href="https://linkedin.com/in/shravan-s-07a4a7154"><img src="https://img.shields.io/badge/LinkedIn-Shravan-blue?style=flat&logo=linkedin"></a>
+  <a href="https://twitter.com/shravanrockz70"><img src="https://img.shields.io/badge/Twitter-@shravanrockz70-blue?style=flat&logo=twitter"></a>
+</p>
+
+---
+
+<!-- You can add GitHub Stats or Top Languages below -->
