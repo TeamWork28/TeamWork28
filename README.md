@@ -41,8 +41,7 @@ Here are some cool projects I’m working on:
 
 - 🔹 **MiniProject** – Sign Language Translator (Python)
 - 🔹 **DevOps-Projects** – Exploring Jenkins, CI/CD (JavaScript)
-- 🔹 **Cloud Deployment Demo** – Hosted using Jupyter (Jupyter Notebook)
-- 🔹 **Testing Jenkins** – Demo setup for Jenkins testing (Python)
+- 🔹 **Cloud Deployment Demo** – Hosted using AWS (Amazon Web Service)
 
 > Explore all at: [GitHub Repos »](https://github.com/TeamWork28?tab=repositories)
 
@@ -52,7 +51,7 @@ Here are some cool projects I’m working on:
 
 <p align="left">
   <a href="mailto:shravansen.sk@gmail.com"><img src="https://img.shields.io/badge/Email-shravansen.sk@gmail.com-blue?style=flat&logo=gmail"></a>
-  <a href="https://linkedin.com/in/shravan-s-07a4a7154"><img src="https://img.shields.io/badge/LinkedIn-Shravan-blue?style=flat&logo=linkedin"></a>
+  <a href="https://www.linkedin.com/in/shravans2003/"><img src="https://img.shields.io/badge/LinkedIn-Shravan-blue?style=flat&logo=linkedin"></a>
   <a href="https://twitter.com/shravanrockz70"><img src="https://img.shields.io/badge/Twitter-@shravanrockz70-blue?style=flat&logo=twitter"></a>
 </p>
 
