@@ -22,7 +22,7 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,sqlserver,git,github,gitlab,docker,linux,jenkins,kubernetes,aws,azure" />
+<img src="https://skillicons.dev/icons?i=python,terraform,git,github,gitlab,docker,linux,jenkins,kubernetes,aws,azure"/>
 </p>
 
 ---
