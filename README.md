@@ -9,12 +9,11 @@
 
 ## 🚀 About Me
 
-- 🔭 I’m currently learning **Python (noob to pro)** and **DevOps tools**
-- 👯 I’m looking to collaborate with **developers to grow and improve**
-- 📫 How to reach me: [IG: @the_royal_ceo](https://instagram.com/the_royal_ceo)
+- 🔭 I’m currently learning **DevOps tools**
+- 👯 I’m looking to collaborate with **DevOps Engineers to grow and improve**
+- 📫 How to reach me: hpshravan21@gmail.com
 - 🌍 Based in: **Bengaluru, India**
 - 💬 Pronouns: **He/Him**
-- 🧠 Fun fact: *"Is it necessary to have one?"* 😄
 - 💡 Motto: *"Stay motivated. Nothing is unsolvable."*
 
 ---
@@ -39,9 +38,9 @@
 
 Here are some cool projects I’m working on:
 
-- 🔹 **MiniProject** – Sign Language Translator (Python)
-- 🔹 **DevOps-Projects** – Exploring Jenkins, CI/CD (JavaScript)
-- 🔹 **Cloud Deployment Demo** – Hosted using AWS (Amazon Web Service)
+- 🔹 **shopping_mArt** – App with frontend, backend and NoSQL, along with DevOps code 
+- 🔹 **Linux_For_Developer** – Exploring Jenkins, CI/CD (Sample test files)
+- 🔹 **Webpage-for-Cloud-Deployment** – Hosted using AWS (Amazon Web Service)
 
 > Explore all at: [GitHub Repos »](https://github.com/TeamWork28?tab=repositories)
 
@@ -50,7 +49,7 @@ Here are some cool projects I’m working on:
 ## 🌐 Connect with Me
 
 <p align="left">
-  <a href="mailto:shravansen.sk@gmail.com"><img src="https://img.shields.io/badge/Email-shravansen.sk@gmail.com-blue?style=flat&logo=gmail"></a>
+  <a href="mailto:hpshravan21@gmail.com"><img src="https://img.shields.io/badge/Email-shravansen.sk@gmail.com-blue?style=flat&logo=gmail"></a>
   <a href="https://www.linkedin.com/in/shravans2003/"><img src="https://img.shields.io/badge/LinkedIn-Shravan-blue?style=flat&logo=linkedin"></a>
   <a href="https://twitter.com/shravanrockz70"><img src="https://img.shields.io/badge/Twitter-@shravanrockz70-blue?style=flat&logo=twitter"></a>
 </p>
