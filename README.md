@@ -26,14 +26,6 @@
 
 ---
 
-## 📚 Tips for Learning
-
-- 📘 Prefer **reading-based learning**? Try [W3Schools](https://www.w3schools.com)
-- 🎥 Prefer **hands-on or video tutorials**? Try [YouTube](https://youtube.com)
-- 📄 Prefer **documentation** Try online documentation [GeekforGeeks](https://www.geeksforgeeks.org/)
-
----
-
 ## 📌 Pinned Projects
 
 Here are some cool projects I’m working on:
