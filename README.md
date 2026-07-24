@@ -38,7 +38,7 @@
 
 Here are some cool projects I’m working on:
 
-- 🔹 **ride-share-platform** – App with Node.js, Python, MySQL and MongoDB along with DevOps code 
+- 🔹 **Ride-share-platform** – App with Node.js, Python, MySQL and MongoDB along with DevOps code 
 - 🔹 **Linux_For_Developer** – Exploring Jenkins, CI/CD (Sample test files)
 - 🔹 **Webpage-for-Cloud-Deployment** – Hosted using AWS (Amazon Web Service)
 
