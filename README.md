@@ -9,19 +9,19 @@
 
 ## 🚀 About Me
 
-- 🔭 I’m currently learning **DevOps tools**
-- 👯 I’m looking to collaborate with **DevOps Engineers to grow and improve**
+- 🔭 I am a junior **DevOps Engineer**
+- 👯 I’m looking to collaborate with **DevOps Engineers to enchance DevOps along with AI**
 - 📫 How to reach me: hpshravan21@gmail.com
 - 🌍 Based in: **Bengaluru, India**
 - 💬 Pronouns: **He/Him**
-- 💡 Motto: *"Stay motivated. Nothing is unsolvable."*
+- 💡 Motto: *"Stay motivated. When your time comes be ready to play."*
 
 ---
 
 ## 🧰 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,terraform,git,github,gitlab,docker,linux,jenkins,kubernetes,aws"/>
+<img src="https://skillicons.dev/icons?i=python,terraform,git,github,github-actions,gitlab,docker,linux,jenkins,kubernetes,aws"/>
 </p>
 
 ---
