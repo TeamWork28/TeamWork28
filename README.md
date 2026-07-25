@@ -14,7 +14,7 @@
 - 📫 How to reach me: hpshravan21@gmail.com
 - 🌍 Based in: **Bengaluru, India**
 - 💬 Pronouns: **He/Him**
-- 💡 Motto: *"Stay motivated. When your time comes be ready to play."*
+- 💡 Motto: *"Stay motivated. Your time comes very soon be ready to play."*
 
 ---
 
