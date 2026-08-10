@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shravan S — DevOps Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--white:#fff;--muted:rgba(255,255,255,.82);--line:rgba(255,255,255,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y mandatory}
+body{margin:0;background:#05070a;color:#fff;font-family:Inter,system-ui,sans-serif;overflow-x:hidden}
+section{height:100vh;min-height:680px;position:relative;overflow:hidden;scroll-snap-align:start}
+.bg{position:absolute;inset:-3%;background:center/cover no-repeat;transform:scale(1.035);filter:brightness(.56) saturate(.82) contrast(1.05);transition:transform 1.8s cubic-bezier(.2,.7,.2,1)}
+section.active .bg{transform:scale(1.075)}
+.bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.84),rgba(0,0,0,.54) 48%,rgba(0,0,0,.38)),linear-gradient(0deg,rgba(0,0,0,.62),transparent 48%)}
+.grid{position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,transparent,black 25%,black 80%,transparent);pointer-events:none}
+.topbar{position:fixed;top:0;left:0;right:0;height:76px;z-index:30;display:flex;align-items:center;justify-content:space-between;padding:0 38px;background:linear-gradient(rgba(3,5,8,.7),transparent);font-size:12px;font-weight:800;letter-spacing:.13em}
+.topbar a{color:#fff;text-decoration:none}.nav{display:flex;gap:22px}
+.copy{position:absolute;z-index:10;left:7vw;top:50%;transform:translateY(-50%);width:min(900px,86vw)}
+.kicker{font-size:12px;letter-spacing:.22em;font-weight:800;margin-bottom:24px;color:rgba(255,255,255,.82);opacity:0;transform:translateX(-70px)}
+h1{font-size:clamp(68px,9.2vw,144px);line-height:.8;letter-spacing:-.085em;margin:0 0 30px;font-weight:900;opacity:0;transform:translateX(-100px);text-shadow:0 8px 35px rgba(0,0,0,.38)}
+.desc{font-size:clamp(18px,1.55vw,24px);line-height:1.55;color:#fff;max-width:780px;margin:0;opacity:0;transform:translateX(-75px);text-shadow:0 4px 18px rgba(0,0,0,.55)}
+.active .kicker{animation:enter .9s cubic-bezier(.16,1,.3,1) .12s forwards}.active h1{animation:enter 1.1s cubic-bezier(.16,1,.3,1) .24s forwards}.active .desc{animation:enter 1s cubic-bezier(.16,1,.3,1) .46s forwards}
+
+.active .about-item,.active .skill,.active .project{animation:tileSwipe .75s cubic-bezier(.16,1,.3,1) forwards}
+.active .about-item:nth-child(1),.active .skill:nth-child(1),.active .project:nth-child(1){animation-delay:.18s}
+.active .about-item:nth-child(2),.active .skill:nth-child(2),.active .project:nth-child(2){animation-delay:.28s}
+.active .about-item:nth-child(3),.active .skill:nth-child(3),.active .project:nth-child(3){animation-delay:.38s}
+.active .about-item:nth-child(4),.active .skill:nth-child(4),.active .project:nth-child(4){animation-delay:.48s}
+.active .skill:nth-child(5){animation-delay:.58s}.active .skill:nth-child(6){animation-delay:.68s}
+.active .skill:nth-child(7){animation-delay:.78s}.active .skill:nth-child(8){animation-delay:.88s}
+.active .skill:nth-child(9){animation-delay:.98s}.active .skill:nth-child(10){animation-delay:1.08s}
+@keyframes tileSwipe{to{opacity:1;transform:translateX(0)}}
+@keyframes enter{to{opacity:1;transform:translateX(0)}}
+.meta{position:absolute;right:38px;bottom:34px;z-index:10;text-align:right;font-size:10px;line-height:1.8;letter-spacing:.14em;color:rgba(255,255,255,.68)}
+.section-num{position:absolute;left:38px;bottom:34px;z-index:10;font-size:10px;letter-spacing:.16em;color:rgba(255,255,255,.65)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:900px;margin-top:32px}
+.about-item{border:1px solid var(--line);background:rgba(0,0,0,.28);padding:16px 18px;backdrop-filter:blur(5px);opacity:0;transform:translateX(-55px)}
+.about-item strong{display:block;font-size:9px;letter-spacing:.18em;color:rgba(255,255,255,.56);margin-bottom:7px}.about-item span{font-size:16px;font-weight:600}
+.stack-grid{display:grid;grid-template-columns:repeat(4,minmax(130px,1fr));gap:9px;margin-top:28px;max-width:900px}
+.skill{border:1px solid rgba(255,255,255,.24);background:rgba(5,8,12,.56);padding:13px 14px;font-size:14px;font-weight:700;backdrop-filter:blur(7px);opacity:0;transform:translateX(-55px)}
+.skill small{display:block;font-size:8px;letter-spacing:.16em;color:rgba(255,255,255,.48);margin-bottom:7px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:28px;max-width:1080px}
+.project{display:block;opacity:0;transform:translateX(-55px);min-height:225px;border:1px solid rgba(255,255,255,.22);background:rgba(5,8,12,.62);padding:20px;backdrop-filter:blur(8px);transition:transform .25s,border-color .25s;color:#fff;text-decoration:none;cursor:pointer}
+.project:hover{transform:translateY(-6px);border-color:rgba(255,255,255,.55)}.project .n{font-size:10px;letter-spacing:.18em;color:rgba(255,255,255,.55)}
+.project h2{font-size:25px;letter-spacing:-.045em;margin:22px 0 10px}.project p{font-size:13px;line-height:1.55;color:var(--muted);margin:0}.project .tech{margin-top:17px;font-size:10px;font-weight:700;letter-spacing:.06em;color:#fff}
+.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,430px);gap:48px;align-items:center;width:min(1100px,86vw);margin:0 auto}
+.contact-card{border:1px solid rgba(255,255,255,.28);background:rgba(4,7,11,.76);padding:32px;backdrop-filter:blur(14px);box-shadow:0 25px 80px rgba(0,0,0,.3)}
+.contact-label{font-size:11px;letter-spacing:.22em;font-weight:800;color:rgba(255,255,255,.6);margin-bottom:25px}.contact-card{overflow:hidden;min-width:0;width:100%}
+.contact-card a{display:block;color:#fff;text-decoration:none;font-size:clamp(20px,2vw,28px);font-weight:700;letter-spacing:-.035em;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}.contact-card a:last-child{border-bottom:0}.contact-card a:hover{opacity:.7}
+.footer-note{margin-top:34px;font-size:clamp(17px,1.6vw,23px);font-weight:700;letter-spacing:-.02em;color:#fff;line-height:1.5;max-width:650px;text-shadow:0 5px 24px rgba(0,0,0,.55)}
+@media(max-width:1100px) and (min-width:901px){
+.contact-layout{grid-template-columns:minmax(0,1fr) minmax(320px,38vw);gap:32px;width:86vw;margin:0}
+.contact-layout h1{font-size:clamp(58px,7.2vw,88px);letter-spacing:-.08em}
+.contact-card{padding:28px;min-width:0;width:100%}
+}
+@media(max-width:900px){section{min-height:760px}.topbar{padding:0 18px}.nav{display:none}.copy{left:7vw;top:42%;width:86vw}h1{font-size:clamp(58px,15vw,100px)}.about-grid{grid-template-columns:1fr 1fr}.stack-grid{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr}.project{min-height:auto}.contact-layout{grid-template-columns:1fr;gap:24px;width:86vw;margin:0}.contact-card{padding:23px}.meta,.section-num{bottom:18px;font-size:8px}}
+@media(max-width:560px){section{min-height:820px}.about-grid{grid-template-columns:1fr}.stack-grid{grid-template-columns:repeat(2,1fr);gap:7px}.skill{padding:11px;font-size:12px}.contact-layout{display:block}.contact-card{margin-top:25px}}
+</style>
+</head>
+<body>
+<header class="topbar"><a href="#about">SHRAVAN S</a><nav class="nav"><a href="#about">ABOUT</a><a href="#stack">STACK</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a></nav></header>
+
+<section id="about" class="active">
+<div class="bg" style="background-image:url('https://media2.dev.to/dynamic/image/width%3D1080%2Cheight%3D1080%2Cfit%3Dcover%2Cgravity%3Dauto%2Cformat%3Dauto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqv6tgk1k57lbralru1b7.png')"></div><div class="grid"></div>
+<div class="copy"><div class="kicker">01 / ABOUT ME</div><h1>I BUILD<br>WITH PURPOSE.</h1>
+<p class="desc">I’m Shravan S, a Junior DevOps Engineer passionate about AI/ML, cloud infrastructure and automation. I’m looking to collaborate with DevOps engineers and explore how AI can enhance DevOps.</p>
+<div class="about-grid"><div class="about-item"><strong>ROLE</strong><span>Junior DevOps Engineer</span></div><div class="about-item"><strong>FOCUS</strong><span>AI/ML + DevOps</span></div><div class="about-item"><strong>COLLABORATION</strong><span>DevOps + AI</span></div><div class="about-item"><strong>PRONOUNS</strong><span>He / Him</span></div></div></div>
+<div class="section-num">01 / 04</div><div class="meta">DEVOPS · AI/ML · CLOUD</div>
+</section>
+
+<section id="stack">
+<div class="bg" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=3840&q=90')"></div><div class="grid"></div>
+<div class="copy"><div class="kicker">02 / TECH STACK</div><h1>MY<br>TOOLBOX.</h1>
+<p class="desc">The technologies I’m learning and using across cloud, automation, infrastructure and software delivery.</p>
+<div class="stack-grid">
+<div class="skill"><small>CLOUD</small>AWS</div><div class="skill"><small>OBSERVABILITY</small>Elasticsearch</div><div class="skill"><small>CONTAINERS</small>Docker</div><div class="skill"><small>VERSION CONTROL</small>Git</div><div class="skill"><small>CI/CD</small>GitHub Actions · GitLab · Jenkins</div><div class="skill"><small>ORCHESTRATION</small>Kubernetes</div><div class="skill"><small>OS</small>Linux</div><div class="skill"><small>LANGUAGE</small>Python</div><div class="skill"><small>IaC</small>Terraform</div><div class="skill"><small>TOOLS</small>GitHub</div>
+</div></div>
+<div class="section-num">02 / 04</div><div class="meta">AWS · DOCKER · KUBERNETES · TERRAFORM</div>
+</section>
+
+<section id="projects">
+<div class="bg" style="background-image:url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=3840&q=90')"></div><div class="grid"></div>
+<div class="copy"><div class="kicker">03 / PROJECTS</div><h1>THINGS<br>I BUILD.</h1>
+<div class="projects">
+<a class="project" href="https://github.com/TeamWork28/ride-share-platform.git" target="_blank" rel="noreferrer"><div class="n">PROJECT 01</div><h2>Ride-share Platform</h2><p>Application using Node.js, Python, MySQL and MongoDB with DevOps code.</p><div class="tech">NODE.JS · PYTHON · MYSQL · MONGODB · DEVOPS</div></a>
+<a class="project" href="https://github.com/TeamWork28/Linux_For_Developer.git" target="_blank" rel="noreferrer"><div class="n">PROJECT 02</div><h2>Linux for Developer</h2><p>Learning and experimentation around Jenkins, CI/CD and sample test files.</p><div class="tech">LINUX · JENKINS · CI/CD</div></a>
+<a class="project" href="https://github.com/TeamWork28/Student-Webpage-for-Cloud-Deployment.git" target="_blank" rel="noreferrer"><div class="n">PROJECT 03</div><h2>Webpage for Cloud Deployment</h2><p>A webpage hosted using Amazon Web Services.</p><div class="tech">AWS · CLOUD DEPLOYMENT</div></a>
+</div></div>
+<div class="section-num">03 / 04</div><div class="meta">PROJECTS · BUILD · DEPLOY</div>
+</section>
+
+<section id="contact">
+<div class="bg" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=3840&q=90')"></div><div class="grid"></div>
+<div class="copy"><div class="contact-layout"><div>
+<div class="kicker">04 / CONTACT</div><h1>LET’S<br>CONNECT.</h1>
+<p class="desc">I’m open to collaboration with DevOps engineers and opportunities to combine DevOps with AI.</p>
+<div class="footer-note">“Stay motivated. Your time comes very soon — be ready to play.”</div>
+</div>
+<div class="contact-card"><div class="contact-label">GET IN TOUCH</div>
+<a href="mailto:hpshravan21@gmail.com">hpshravan21@gmail.com</a>
+<a href="https://github.com/TeamWork28" target="_blank" rel="noreferrer">GitHub ↗</a>
+<a href="https://www.linkedin.com/in/shravans2003/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+</div></div></div>
+<div class="section-num">04 / 04</div><div class="meta">SHRAVAN S · DEVOPS ENGINEER</div>
+</section>
+
+<script>
+const sections=[...document.querySelectorAll("section")];
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting && entry.intersectionRatio>.55){
+sections.forEach(s=>s.classList.remove("active"));
+entry.target.classList.add("active");
+}
+});
+},{threshold:[.55]});
+sections.forEach(s=>observer.observe(s));
+</script>
+</body></html>
