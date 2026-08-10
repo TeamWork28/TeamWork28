@@ -44,17 +44,19 @@ h1{font-size:clamp(68px,9.2vw,144px);line-height:.8;letter-spacing:-.085em;margi
 .project{display:block;opacity:0;transform:translateX(-55px);min-height:225px;border:1px solid rgba(255,255,255,.22);background:rgba(5,8,12,.62);padding:20px;backdrop-filter:blur(8px);transition:transform .25s,border-color .25s;color:#fff;text-decoration:none;cursor:pointer}
 .project:hover{transform:translateY(-6px);border-color:rgba(255,255,255,.55)}.project .n{font-size:10px;letter-spacing:.18em;color:rgba(255,255,255,.55)}
 .project h2{font-size:25px;letter-spacing:-.045em;margin:22px 0 10px}.project p{font-size:13px;line-height:1.55;color:var(--muted);margin:0}.project .tech{margin-top:17px;font-size:10px;font-weight:700;letter-spacing:.06em;color:#fff}
-.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,430px);gap:48px;align-items:center;width:min(1100px,86vw);margin:0 auto}
+.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,395px);gap:28px;align-items:center;width:100%;max-width:1020px;margin:0}
 .contact-card{border:1px solid rgba(255,255,255,.28);background:rgba(4,7,11,.76);padding:32px;backdrop-filter:blur(14px);box-shadow:0 25px 80px rgba(0,0,0,.3)}
 .contact-label{font-size:11px;letter-spacing:.22em;font-weight:800;color:rgba(255,255,255,.6);margin-bottom:25px}.contact-card{overflow:hidden;min-width:0;width:100%}
 .contact-card a{display:block;color:#fff;text-decoration:none;font-size:clamp(20px,2vw,28px);font-weight:700;letter-spacing:-.035em;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}.contact-card a:last-child{border-bottom:0}.contact-card a:hover{opacity:.7}
 .footer-note{margin-top:34px;font-size:clamp(17px,1.6vw,23px);font-weight:700;letter-spacing:-.02em;color:#fff;line-height:1.5;max-width:650px;text-shadow:0 5px 24px rgba(0,0,0,.55)}
+#contact .copy{width:min(1020px,86vw)}
+#contact h1{font-size:clamp(58px,7vw,120px)}
 @media(max-width:1100px) and (min-width:901px){
-.contact-layout{grid-template-columns:minmax(0,1fr) minmax(320px,38vw);gap:32px;width:86vw;margin:0}
+.contact-layout{grid-template-columns:minmax(0,1fr) minmax(300px,38vw);gap:28px;width:100%;max-width:none;margin:0}
 .contact-layout h1{font-size:clamp(58px,7.2vw,88px);letter-spacing:-.08em}
 .contact-card{padding:28px;min-width:0;width:100%}
 }
-@media(max-width:900px){section{min-height:760px}.topbar{padding:0 18px}.nav{display:none}.copy{left:7vw;top:42%;width:86vw}h1{font-size:clamp(58px,15vw,100px)}.about-grid{grid-template-columns:1fr 1fr}.stack-grid{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr}.project{min-height:auto}.contact-layout{grid-template-columns:1fr;gap:24px;width:86vw;margin:0}.contact-card{padding:23px}.meta,.section-num{bottom:18px;font-size:8px}}
+@media(max-width:900px){section{min-height:760px}.topbar{padding:0 18px}.nav{display:none}.copy{left:7vw;top:42%;width:86vw}h1{font-size:clamp(58px,15vw,100px)}.about-grid{grid-template-columns:1fr 1fr}.stack-grid{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr}.project{min-height:auto}#contact .copy{width:86vw}.contact-layout{grid-template-columns:1fr;gap:24px;width:100%;max-width:none;margin:0}.contact-card{padding:23px}.meta,.section-num{bottom:18px;font-size:8px}}
 @media(max-width:560px){section{min-height:820px}.about-grid{grid-template-columns:1fr}.stack-grid{grid-template-columns:repeat(2,1fr);gap:7px}.skill{padding:11px;font-size:12px}.contact-layout{display:block}.contact-card{margin-top:25px}}
 </style>
 </head>
@@ -66,7 +68,7 @@ h1{font-size:clamp(68px,9.2vw,144px);line-height:.8;letter-spacing:-.085em;margi
 <div class="copy"><div class="kicker">01 / ABOUT ME</div><h1>I BUILD<br>WITH PURPOSE.</h1>
 <p class="desc">I’m Shravan S, a Junior DevOps Engineer passionate about AI/ML, cloud infrastructure and automation. I’m looking to collaborate with DevOps engineers and explore how AI can enhance DevOps.</p>
 <div class="about-grid"><div class="about-item"><strong>ROLE</strong><span>Junior DevOps Engineer</span></div><div class="about-item"><strong>FOCUS</strong><span>AI/ML + DevOps</span></div><div class="about-item"><strong>COLLABORATION</strong><span>DevOps + AI</span></div><div class="about-item"><strong>PRONOUNS</strong><span>He / Him</span></div></div></div>
-<div class="section-num">01 / 04</div><div class="meta">DEVOPS · AI/ML · CLOUD</div>
+<div class="section-num">01 / 04</div><div class="meta">DEVOPS · AI/ML </div>
 </section>
 
 <section id="stack">
@@ -81,7 +83,7 @@ h1{font-size:clamp(68px,9.2vw,144px);line-height:.8;letter-spacing:-.085em;margi
 
 <section id="projects">
 <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=3840&q=90')"></div><div class="grid"></div>
-<div class="copy"><div class="kicker">03 / PROJECTS</div><h1>THINGS<br>I BUILD.</h1>
+<div class="copy"><div class="kicker">03 / PROJECTS</div><h1>THINGS<br>I BUILT.</h1>
 <div class="projects">
 <a class="project" href="https://github.com/TeamWork28/ride-share-platform.git" target="_blank" rel="noreferrer"><div class="n">PROJECT 01</div><h2>Ride-share Platform</h2><p>Application using Node.js, Python, MySQL and MongoDB with DevOps code.</p><div class="tech">NODE.JS · PYTHON · MYSQL · MONGODB · DEVOPS</div></a>
 <a class="project" href="https://github.com/TeamWork28/Linux_For_Developer.git" target="_blank" rel="noreferrer"><div class="n">PROJECT 02</div><h2>Linux for Developer</h2><p>Learning and experimentation around Jenkins, CI/CD and sample test files.</p><div class="tech">LINUX · JENKINS · CI/CD</div></a>
