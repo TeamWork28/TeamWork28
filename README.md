@@ -31,7 +31,7 @@
 Here are some cool projects I’m working on:
 
 - 🔹 **Ride-share-platform** – App with Node.js, Python, MySQL and MongoDB along with DevOps code 
-- 🔹 **Linux_For_Developer** – Exploring Jenkins, CI/CD (Sample test files)
+- 🔹 **Drowsiness-Detector** – Using Python, OpenCV and other pip packages
 - 🔹 **Webpage-for-Cloud-Deployment** – Hosted using AWS (Amazon Web Service)
 
 > Explore all at: [GitHub Repos »](https://github.com/TeamWork28?tab=repositories)
