@@ -21,7 +21,7 @@
 ## 🧰 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=aws,elasticsearch,docker,git,github,githubactions,gitlab,jenkins,kubernetes,linux,python,terraform"/>
+<img src="https://skillicons.dev/icons?i=aws,elasticsearch,docker,git,github,githubactions,gitlab,jenkins,kubernetes,linux,python,terraform,mysql,nginx"/>
 </p>
 
 ---
