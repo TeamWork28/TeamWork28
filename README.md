@@ -2,7 +2,7 @@
 <h3 align="center">A passionate learner exploring Full Stack, AI and DevOps 😊</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Passionate+about+Full+Stack+AI+ML+%26+Cloud;DevOps+Enthusiast;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&center=true&vCenter=true&width=435&lines=Passionate+about+AI+ML+%26+Cloud;DevOps+Enthusiast;" alt="Typing SVG" />
 </p>
 
 ---
